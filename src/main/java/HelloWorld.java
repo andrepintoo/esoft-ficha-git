@@ -10,8 +10,14 @@ public class HelloWorld extends JFrame{
         panel1.add(lblAdicional);
 
         JLabel lblAdicional2 = new JLabel();
-        lblAdicional2.setText("alterações - estive aqui");
+        JLabel lblAdicional3 = new JLabel();
+//<<<<<<< HEAD
+        lblAdicional3.setText("alterações - estive aqui");
+//=======
+        lblAdicional2.setText("boas pinto, tive ca");
+//>>>>>>> e1b14ffd68722d7d1cfa4770ed43fb048b2be817
         panel1.add(lblAdicional2);
+        panel1.add(lblAdicional3);
 
         setContentPane(panel1);
         pack();
