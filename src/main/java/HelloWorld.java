@@ -9,6 +9,9 @@ public class HelloWorld extends JFrame{
         lblAdicional.setText("estive aqui");
         panel1.add(lblAdicional);
 
+        JLabel lblAdicional2 = new JLabel();
+        lblAdicional2.setText("boas pinto, tive ca");
+        panel1.add(lblAdicional2);
 
         setContentPane(panel1);
         pack();
